@@ -1,0 +1,13 @@
+user: daw
+pass: godramalho2018
+
+
+#To connect using the mongo shell:
+mongo ds241664.mlab.com:41664/facebooktest -u daw -p godramalho2018
+
+
+# carregar users
+mongoimport -h ds115740.mlab.com:15740 -d facebook -c users -u daw -p godramalho2018 --file utilizadores.json --jsonArray
+mongoimport -h ds115740.mlab.com:15740 -d facebook -c users -u daw -p godramalho2018 --file utilizadores2.json --jsonArray
+
+

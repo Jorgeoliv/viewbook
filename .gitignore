@@ -1,0 +1,8 @@
+
+newFacebook/node_modules/
+frontend/node_modules/
+frontend/package-lock.json
+newFacebook/package-lock.json
+dados/
+npm-debug.log
+
